@@ -12,6 +12,7 @@ Github-Remote
 
 ```
 
+
 ```    
 Git Commit - stores in local
 Git Push - Push to the remote
