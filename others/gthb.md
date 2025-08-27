@@ -11,6 +11,7 @@ Github-Remote
     6.git push origin main
 
 ```
+
 ```    
 Git Commit - stores in local
 Git Push - Push to the remote
