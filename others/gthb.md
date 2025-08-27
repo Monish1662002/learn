@@ -9,6 +9,7 @@ Github-Remote
     5.git add .
       git commit -m "Your commit message"
     6.git push origin main
+
 ```
 ```    
 Git Commit - stores in local
