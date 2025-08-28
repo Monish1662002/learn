@@ -172,3 +172,39 @@ To https://github.com/Monish1662002/learn.git
    8169835..86749c0  main -> main
 PS D:\learn\py>
 ```
+```
+PS D:\learn\py> git init
+Reinitialized existing Git repository in D:/learn/py/.git/
+PS D:\learn\py> git add errors.md 
+fatal: pathspec 'errors.md' did not match any files
+PS D:\learn\py> ls
+
+
+    Directory: D:\learn\py
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        28-08-2025     08:19                others
+-a----        28-08-2025     00:57           4895 .gitignore
+-a----        28-08-2025     00:57           1084 LICENSE
+-a----        28-08-2025     00:57              7 README.md
+
+
+PS D:\learn\py> git add others/errors.md
+PS D:\learn\py> git commit -am errtypes
+[main 2d590f4] errtypes
+ 1 file changed, 69 insertions(+)
+ create mode 100644 others/errors.md
+PS D:\learn\py> git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.56 KiB | 398.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Monish1662002/learn.git
+   43a53cb..2d590f4  main -> main
+PS D:\learn\py> 
+```
