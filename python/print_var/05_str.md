@@ -33,26 +33,28 @@ Extract a substring using [start:end:step].
 s = "Python"
 print(s[0:4])  # 'Pyth'
 print(s[::2])  # 'Pto' (every 2nd char)
-
+```
 3. String Functions & Methods
-Method	Description	Example
-len(s)	Length of string	len("Python") → 6
-s.lower()	Convert to lowercase	"PYTHON".lower() → "python"
-s.upper()	Convert to uppercase	"python".upper() → "PYTHON"
-s.title()	Capitalize each word	"hello world".title() → "Hello World"
-s.strip()	Remove leading & trailing spaces	" hello ".strip() → "hello"
-s.lstrip()	Remove left spaces	" hello".lstrip() → "hello"
-s.rstrip()	Remove right spaces	"hello ".rstrip() → "hello"
-s.replace(a,b)	Replace substring a with b	"Hello".replace('l','x') → "Hexxo"
-s.split(sep)	Split string into list	"a,b,c".split(',') → ['a','b','c']
-sep.join(list)	Join list into string	'-'.join(['a','b','c']) → "a-b-c"
-s.find(sub)	Find substring, return index or -1	"Python".find('t') → 2
-s.count(sub)	Count occurrences	"Python".count('o') → 1
-s.startswith(sub)	Check start	"Python".startswith('Py') → True
-s.endswith(sub)	Check end	"Python".endswith('on') → True
-s.isalpha()	Check all letters	"Hello".isalpha() → True
-s.isdigit()	Check all digits	"123".isdigit() → True
-s.isspace()	Check spaces only	" ".isspace() → True
+Method	|Description	|Example
+len(s)	|Length of string	len("Python") → 6
+s.lower()	|Convert to lowercase	|"PYTHON".lower() → "python"
+s.upper()	|Convert to uppercase	|"python".upper() → "PYTHON"
+s.title()	|Capitalize each word	|"hello world".title() → "Hello World"
+s.strip()	|Remove leading & trailing spaces	|" hello ".strip() → "hello"
+s.lstrip()	|Remove left spaces |" hello".lstrip() → "hello"
+s.rstrip()	|Remove right spaces	|"hello ".rstrip() → "hello"
+s.replace(a,b)	|Replace substring a with b	|"Hello".replace('l','x') → "Hexxo"
+s.split(sep)	|Split string into list	|"a,b,c".split(',') → ['a','b','c']
+sep.join(list)	|Join list into string	|'-'.join(['a','b','c']) → "a-b-c"
+s.find(sub)	|Find substring, return index or -1	|"Python".find('t') → 2
+s.count(sub)	|Count occurrences	|"Python".count('o') → 1
+s.startswith(sub)	|Check start	|"Python".startswith('Py') → True
+s.endswith(sub)	|Check end	|"Python".endswith('on') → True
+s.isalpha()	|Check all letters	|"Hello".isalpha() → True
+s.isdigit()	|Check all digits	|"123".isdigit() → True
+s.isspace()	|Check spaces only	|" ".isspace() → True
+
+```
 4. String Formatting
 a. Using f-string (Python 3.6+)
 name = "Monish"
@@ -99,8 +101,8 @@ for char in s:
 Strings cannot be changed in-place.
 
 s = "Hello"
-# s[0] = 'h'  # ❌ Error
-s = "h" + s[1:]  # ✅ Correct way
+# s[0] = 'h'  # Error
+s = "h" + s[1:]  #  Correct way
 
 10. Common Use-Cases
 

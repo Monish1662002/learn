@@ -4,6 +4,11 @@
 3. ctrl + shift + ` - New Termilnal
 4. F2 - Rename
 
+# Moving multiple lines to left 
+> shift + tab
+# Moving multiple lines to right 
+> tab
+
 # Chrome
 ### Switching to the next or previous tab 
 1. Ctrl + Tab: Moves to the next tab on the right.
