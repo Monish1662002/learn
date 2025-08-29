@@ -8,5 +8,17 @@
 1. li=[]
 2. list()
 
-> note: Always mutable
-> Beauty Note is the memory address is always same
+
+> Beauty Note is the memory address is always same.
+
+# List Methods
+1. count
+2. index
+3. pop
+4. remove
+5. sort
+6. insert
+7. append
+8. extend
+   
+   
