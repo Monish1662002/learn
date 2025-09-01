@@ -1,4 +1,4 @@
-![Data Types](/imgs/Python-data-types.webp)
+![Data Types](/09_imgs/Python-data-types.webp)
 
 # Integer
 Example:

@@ -1,4 +1,4 @@
-# types of error in python
+# Types of error in python
 ### Syntax of Python in TensorFlow - The Engineering Projects
 Errors in Python are typically three main types:
 * syntax errors, 
@@ -14,7 +14,8 @@ The program will not run until these errors are fixed.
  if True
     print("This will cause a syntax error")
 ```
-### IndentationError: A specific type of syntax error caused by incorrect or inconsistent indentation. 
+### IndentationError: A specific type of syntax error caused by incorrect or inconsistent indentation.
+
 # 2. Runtime errors (Exceptions)
  A runtime error, or exception, occurs while the program is running, even if the syntax is correct.  Python provides try-except blocks to handle . 
 ## Common types of runtime errors include:
