@@ -19,3 +19,9 @@
 # Deleting 
 1. pop -> removes random element don't know where it is
 2. remove(element) -> removes particular element
+
+# Intersection
+* set1.intersection(set2) # returns the values which present in both the two sets
+  
+# union
+* set1.union() # returns both together without repitation

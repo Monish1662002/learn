@@ -215,3 +215,8 @@ l2 = [i for i in range(15)]
 print(l2) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
 l3 = [i*i for i in range(10)]
 print(l3) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+new_list = [1,2,3,4,5]
+print(new_list[-1:3]) # empty list
+print(new_list[-1:-3])# empty list
+print(new_list[-1:-3:-1]) # [5,4]

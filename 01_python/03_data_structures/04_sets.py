@@ -48,3 +48,19 @@ print(s1)
 
 print(s1.remove('n'))
 print(s1) #{'u', 's', 'B', 'A', 'b', 'C', 'jinnu', 'm', 'i', 'a', 'r', 'somu', 'h', 'o'}
+
+# Intersection
+set1 = {"abi","balu","chandru"}
+set2 = {"arun","balu","chen"}
+
+# print(len(set1+set2)) #TypeError: unsupported operand type(s) for +: 'set' and 'set'
+print(set1.intersection(set2))
+print(set2.intersection(set1))
+
+# union
+print(set1.union(set2)) # returns both together without repitation
+print(set2.union(set1)) # returns both together without repitation
+
+# Difference
+print(set1.difference(set2)) # returns all things in set1 subracted from set2
+print(set2.difference(set1)) # returns all things in set2 subracted from set1
